@@ -10,17 +10,18 @@ function Nav() {
             {/* <a href="/"> */}
             Northwest <span>Animal Hospital</span>
             {/* </a> */}
-          </h1>{" "}
+          </h1>
         </Link>
       </article>
       <aside>
         <ul>
           <li>
-
-            <a href="/staff">All Staff</a>
+            <Link to="/staff">All Staff</Link>
+            {/* <a href="/staff">All Staff</a> */}
           </li>
           <li>
-            <a href="/pets">All Pets</a>
+            <Link to="/pets">All Pets</Link>
+            {/* <a href="/pets">All Pets</a> */}
           </li>
         </ul>
       </aside>
